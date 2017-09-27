@@ -1,0 +1,471 @@
+@font-face {
+    font-family: "OpenSansRegular";
+    src: url("../fonts/OpenSansRegular/OpenSansRegular.eot");
+    src: url("../fonts/OpenSansRegular/OpenSansRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/OpenSansRegular/OpenSansRegular.woff") format("woff"),
+    url("../fonts/OpenSansRegular/OpenSansRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "OpenSansLight";
+    src: url("../fonts/OpenSansLight/OpenSansLight.eot");
+    src: url("../fonts/OpenSansLight/OpenSansLight.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/OpenSansLight/OpenSansLight.woff") format("woff"),
+    url("../fonts/OpenSansLight/OpenSansLight.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "OpenSansItalic";
+    src: url("../fonts/OpenSansItalic/OpenSansItalic.eot");
+    src: url("../fonts/OpenSansItalic/OpenSansItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/OpenSansItalic/OpenSansItalic.woff") format("woff"),
+    url("../fonts/OpenSansItalic/OpenSansItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "OpenSansBold";
+    src: url("../fonts/OpenSansBold/OpenSansBold.eot");
+    src: url("../fonts/OpenSansBold/OpenSansBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/OpenSansBold/OpenSansBold.woff") format("woff"),
+    url("../fonts/OpenSansBold/OpenSansBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "OpenSansExtraBold";
+    src: url("../fonts/OpenSansExtraBold/OpenSansExtraBold.eot");
+    src: url("../fonts/OpenSansExtraBold/OpenSansExtraBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/OpenSansExtraBold/OpenSansExtraBold.woff") format("woff"),
+    url("../fonts/OpenSansExtraBold/OpenSansExtraBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "OpenSansExtraBoldItalic";
+    src: url("../fonts/OpenSansExtraBoldItalic/OpenSansExtraBoldItalic.eot");
+    src: url("../fonts/OpenSansExtraBoldItalic/OpenSansExtraBoldItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/OpenSansExtraBoldItalic/OpenSansExtraBoldItalic.woff") format("woff"),
+    url("../fonts/OpenSansExtraBoldItalic/OpenSansExtraBoldItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "OpenSansBoldItalic";
+    src: url("../fonts/OpenSansBoldItalic/OpenSansBoldItalic.eot");
+    src: url("../fonts/OpenSansBoldItalic/OpenSansBoldItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/OpenSansBoldItalic/OpenSansBoldItalic.woff") format("woff"),
+    url("../fonts/OpenSansBoldItalic/OpenSansBoldItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "OpenSansRegularItalic";
+    src: url("../fonts/OpenSansRegularItalic/OpenSansRegularItalic.eot");
+    src: url("../fonts/OpenSansRegularItalic/OpenSansRegularItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/OpenSansRegularItalic/OpenSansRegularItalic.woff") format("woff"),
+    url("../fonts/OpenSansRegularItalic/OpenSansRegularItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "OpenSansSemiBold";
+    src: url("../fonts/OpenSansSemiBold/OpenSansSemiBold.eot");
+    src: url("../fonts/OpenSansSemiBold/OpenSansSemiBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/OpenSansSemiBold/OpenSansSemiBold.woff") format("woff"),
+    url("../fonts/OpenSansSemiBold/OpenSansSemiBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "OpenSansSemiBoldItalic";
+    src: url("../fonts/OpenSansSemiBoldItalic/OpenSansSemiBoldItalic.eot");
+    src: url("../fonts/OpenSansSemiBoldItalic/OpenSansSemiBoldItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/OpenSansSemiBoldItalic/OpenSansSemiBoldItalic.woff") format("woff"),
+    url("../fonts/OpenSansSemiBoldItalic/OpenSansSemiBoldItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+h1 {
+   font-family: "OpenSansLight";
+ }
+img{
+	max-width: 100%;
+}
+ body {
+    margin: 0; 
+   }
+.block{
+	justify-content: space-between;
+	margin: 0 auto;
+	display: inline-block;
+    position: relative;
+
+}
+.block p{
+	font-size: 18px;
+	color: white;	
+	line-height: 20px;
+	margin-left: 18%;
+	top: 85px;
+	display: block;
+    position: absolute;  
+}
+.logo 	{
+	height: 35px;
+	width: 35px;
+	margin-left: 18%;
+	top: 100px;
+	display: block;
+    position: absolute;  
+}
+.phone{
+	height: 90%;
+	margin-left: 60%;
+	top: 230px;
+	display: block;
+    position: absolute;  
+    float: left;
+}
+.header_cnt{	
+	margin-left: 18%;
+	width: 80%;
+	top: 350px;
+	text-align: left;
+	display: block;
+    position: absolute;  
+}
+.header_cnt h1{
+	/*font-family: OpenSansRegular, sans-serif;*/
+	font-size: 50px;
+	font-weight: normal;
+	color: white;	
+	padding: 0;
+	margin: 0;
+}
+
+.header_cnt p{
+	font-family: OpenSansRegularItalic, sans-serif;
+	font-size: 11px;
+	letter-spacing: 0.2px;
+	line-height: 20px;
+	color: white;
+	margin-left: 0;
+	width: 100%;
+	top: 0px;
+	text-align: left;
+	display: block;
+    position: relative;  
+}
+.container_cnt{	
+	display: inline-block;
+	width: 100%;
+    position: relative;  
+	display: block;
+	margin-top: 33%;
+	text-align: left;
+}
+.container_cnt div{	
+	position: relative;
+	display: inline-block;
+	padding-right: 50px;
+}
+.container_cnt h1{
+	font-weight: normal;
+	padding: 0;
+	margin: 0;
+	color: black;
+	font-size: 25px;
+}
+.container_cnt p{
+	letter-spacing: 0.3px;
+	display: inline-block;
+	font-family: OpenSansRegularItalic, sans-serif;
+	color: gray;
+	font-size: 11px;
+}
+.tiles{
+	margin-top: 5%;
+	font-size: 0;
+	min-width: 660px;
+	max-width: 990px;
+	max-height: 460px;
+}
+.block1{
+	display: inline-block;
+	background-color: #f5989d;
+	height: 230px;
+	width: 330px;
+}
+.block1 h1{
+	margin: 10%;
+	font-size: 24px;	
+}
+.block1 p{
+	margin: 10%;
+	font-size: 11px;	
+}
+.block2{	
+	display: inline-block;
+	background-color: #615f7d;
+	height: 230px;
+	width: 330px;
+}
+.block2 h1{
+	margin: 10%;
+	font-size: 24px;	
+}
+.block2 p{
+	margin: 10%;
+	font-size: 11px;	
+}
+.block3{
+	/*background-image: url(images/pic2.png);*/
+	display: inline-block;
+	position: absolute;
+	background-color: black;
+	height: 200px;
+	width: 330px;
+}
+.block3 h1{
+	margin: 10%;
+	font-size: 24px;	
+}
+.block3 p{
+	position: absolute;
+	margin: 10%;
+	padding-top: 65px;
+	font-size: 11px;	
+}
+.tiles2{
+	font-size: 0;
+}
+.block4{
+	/*background-image: url(images/pic3.png);*/
+	position: absolute;
+	display: inline-block;
+	border: 0px solid;
+	background-color: #615f7d;
+	height: 230px;
+	width: 660px;
+}
+.block4 h1{
+	margin: 5%;
+	font-size: 24px;	
+}
+.block4 p{
+	margin: 5%;
+	width: 100%;
+	padding-top: 65px;
+	position: absolute;
+	font-size: 11px;	
+}
+.block5{	
+	position: relative;
+	margin-left: 660px;
+	display: inline-block;
+	background-color: #82ca9c;
+	height: 230px;
+	width: 330px;
+}
+.block5 h1{
+	margin: 10%;
+	font-size: 24px;	
+}
+.block5 p{
+	margin: 10%;
+	font-size: 11px;	
+}
+
+.containet_text{
+}
+.text_cnt p{
+	color: gray;
+	letter-spacing: 0.2px;
+	line-height: 20px;
+}
+.text_cnt{
+	margin-right: 2%;
+	display: inline-block;
+}
+.again_h{
+	margin-top: 400px;
+}
+.car_block{
+	margin-left: -23%;
+	padding: 0;
+	top: 75%;
+	margin-right: -31px;
+	position: absolute;
+	display: block;
+}
+.car_block_text{
+	top: 45%;
+	position: absolute;
+	z-index: 5;
+	display: block;
+	margin-left: 18%;
+}
+.car_block_text h1{
+	color: white;
+	font-size: 50px;
+    font-weight: normal;
+}
+.car_block_text p{
+	color: white;
+	font-size: 11px;
+	letter-spacing: 0.2px;
+	line-height: 20px;
+}
+.board{
+	padding: 100px;
+	color: white;
+	max-width: 100%;
+	text-align: left;
+	position: relative;
+	display: block;
+	margin-top: 2075px;
+	background-color: #82ca9c;
+	min-width: 10%;
+}
+.board h1{
+	font-family: "OpenSansLight";
+	text-align: left;
+	margin-left: 13%;
+	font-size: 25px;
+
+	font-weight: normal;
+}
+.picture1{
+	display: inline-block;
+}
+.picture2{
+	display: inline-block;
+}
+.picture3{
+	display: inline-block;
+}
+.picture1 p{	
+	font-size: 11px;
+	font-family: "OpenSansLight";
+	text-align: left;
+	letter-spacing: 0.2px;
+	line-height: 20px;
+	padding-right: 50px;
+}
+.picture2 p{	
+	font-size: 11px;
+	font-family: "OpenSansLight";
+	letter-spacing: 0.2px;
+	line-height: 20px;
+	text-align: left;	
+	padding-right: 50px;
+}
+.picture3 p{
+	font-size: 11px;
+	font-family: "OpenSansLight";
+	text-align: left;
+	letter-spacing: 0.2px;
+	line-height: 20px;
+	padding-right: 50px;
+}
+.footer{
+	margin-left: 18%;
+	color: white;
+}
+.main_footer {
+	text-align: left;
+
+}
+.footer0{
+	padding-top: 100px;
+}
+.footer0 p{
+	font-size: 11px;
+	font-family: "OpenSansLight";
+	letter-spacing: 0.2px;
+	line-height: 20px;
+	text-align: left;
+}
+.footer1 {
+	padding-right: 90px;
+	display: inline-block;
+}
+.footer2 {
+	padding-right: 90px;
+	display: inline-block;
+}
+.footer3 {	
+	padding-right: 150px;
+	display: inline-block;
+}
+.footer1 a{
+	font-size: 11px;
+	font-family: "OpenSansLight";
+	letter-spacing: 0.2px;
+	line-height: 20px;
+	color: white;
+	text-decoration: none;
+}
+.footer2 a{
+	font-size: 11px;
+	font-family: "OpenSansLight";
+	letter-spacing: 0.2px;
+	line-height: 20px;
+	color: white;
+	text-decoration: none;
+}
+.footer3 a{
+	font-size: 11px;
+	font-family: "OpenSansLight";
+	letter-spacing: 0.2px;
+	line-height: 20px;
+	color: white;
+	text-decoration: none;
+}
+#search{
+	padding-top: 100px;
+	position: absolute;
+	width: 500px;
+	display: inline-block;
+	min-height: 50px;
+}
+#search p{
+	font-size: 11px;
+	font-family: "OpenSansLight";
+	letter-spacing: 0.2px;
+	display: inline-block;
+}
+#search input{
+	position: relative;
+	border-radius: 2px 0px 0px 2px;
+	width: 350px;
+	display: inline-block;
+	min-height: 45px;
+	border: none; 
+	outline: none;
+	-webkit-appearance: none;
+	font-size: 25px;
+}
+ 
+ #search button {
+    width: 20px; 
+    height: 20px; 
+    border: none; 
+    position: relative;
+    z-index: 5;
+    background-color: #82ca9c;
+    /*background: url(images/galka1.png) no-repeat 50% 50%; */
+   }
